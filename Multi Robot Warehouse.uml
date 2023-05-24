@@ -292,6 +292,12 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_CuTrkPM-Ee2ZjMcAnrF9CQ" name="bdd [Block] Robot Package">
         <packagedElement xmi:type="uml:Activity" xmi:id="_vMWMwPisEe2qqvKPwgHlyw" name="act [Point-to-Point Navigation Model]" node="_TuThQPjCEe2qqvKPwgHlyw _M4eR4PjCEe2qqvKPwgHlyw _9g0LYPjBEe2qqvKPwgHlyw _xAXYAPjAEe2qqvKPwgHlyw _72-nIPi-Ee2qqvKPwgHlyw _ZZ2roPi-Ee2qqvKPwgHlyw _x6VpwPi8Ee2qqvKPwgHlyw _E2tpoPi8Ee2qqvKPwgHlyw _s746IPi5Ee2qqvKPwgHlyw _fCnW0PixEe2qqvKPwgHlyw _-UdZYPjCEe2qqvKPwgHlyw _g8NQgPjDEe2qqvKPwgHlyw">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_GLj6MPoQEe2hbfEXa5Ntog" annotatedElement="_ZZ2roPi-Ee2qqvKPwgHlyw">
+            <body>d=√((x1-x2)2+(y1-y2)2)</body>
+          </ownedComment>
+          <ownedComment xmi:type="uml:Comment" xmi:id="_u5V6cPobEe2hbfEXa5Ntog" annotatedElement="_72-nIPi-Ee2qqvKPwgHlyw">
+            <body>θ^=atan2(x2−x1,y2−y1)∈(−π,π]</body>
+          </ownedComment>
           <edge xmi:type="uml:ControlFlow" xmi:id="_uyvuEPi5Ee2qqvKPwgHlyw" target="_s746IPi5Ee2qqvKPwgHlyw" source="_fCnW0PixEe2qqvKPwgHlyw"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_GUX6cPi8Ee2qqvKPwgHlyw" target="_E2tpoPi8Ee2qqvKPwgHlyw" source="_s746IPi5Ee2qqvKPwgHlyw"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_8RHQUPi8Ee2qqvKPwgHlyw" target="_x6VpwPi8Ee2qqvKPwgHlyw" source="_s746IPi5Ee2qqvKPwgHlyw"/>
@@ -308,10 +314,6 @@
             <weight xmi:type="uml:LiteralInteger" xmi:id="_73bTEfi-Ee2qqvKPwgHlyw" value="1"/>
           </edge>
           <edge xmi:type="uml:ControlFlow" xmi:id="_w2hqEPjBEe2qqvKPwgHlyw" target="_u3KaYPjBEe2qqvKPwgHlyw" source="_v-3CQPjBEe2qqvKPwgHlyw"/>
-          <edge xmi:type="uml:ObjectFlow" xmi:id="_9hHGUPjBEe2qqvKPwgHlyw" target="_9hHGU_jBEe2qqvKPwgHlyw" source="_9hHGUfjBEe2qqvKPwgHlyw">
-            <guard xmi:type="uml:LiteralBoolean" xmi:id="_9hQ3UPjBEe2qqvKPwgHlyw" value="true"/>
-            <weight xmi:type="uml:LiteralInteger" xmi:id="_9hQ3UfjBEe2qqvKPwgHlyw" value="1"/>
-          </edge>
           <edge xmi:type="uml:ControlFlow" xmi:id="_nzTrMPjDEe2qqvKPwgHlyw" target="_g8NQgPjDEe2qqvKPwgHlyw" source="_TuThQPjCEe2qqvKPwgHlyw"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_9d_2APjDEe2qqvKPwgHlyw" name="Yes" target="_TuThQPjCEe2qqvKPwgHlyw" source="_-UdZYPjCEe2qqvKPwgHlyw"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_U32IgPlMEe2HQ6lj8uEvDg" target="_M4eR4PjCEe2qqvKPwgHlyw" source="_9g0LYPjBEe2qqvKPwgHlyw"/>
@@ -319,6 +321,7 @@
           <edge xmi:type="uml:ControlFlow" xmi:id="_g5G68PlMEe2HQ6lj8uEvDg" name="No" target="_9g0LYPjBEe2qqvKPwgHlyw" source="_-UdZYPjCEe2qqvKPwgHlyw"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_PFv8IPlOEe2HQ6lj8uEvDg" target="_u3KaYPjBEe2qqvKPwgHlyw" source="_v-3CQPjBEe2qqvKPwgHlyw"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_SUy1kPlPEe2HQ6lj8uEvDg" target="_u3KaYPjBEe2qqvKPwgHlyw" source="_v-3CQPjBEe2qqvKPwgHlyw"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_3GY7wPoYEe2hbfEXa5Ntog" target="_9hHGU_jBEe2qqvKPwgHlyw" source="_9hHGUfjBEe2qqvKPwgHlyw"/>
           <node xmi:type="uml:InitialNode" xmi:id="_fCnW0PixEe2qqvKPwgHlyw" name="Start" outgoing="_uyvuEPi5Ee2qqvKPwgHlyw"/>
           <node xmi:type="uml:ForkNode" xmi:id="_s746IPi5Ee2qqvKPwgHlyw" incoming="_uyvuEPi5Ee2qqvKPwgHlyw" outgoing="_GUX6cPi8Ee2qqvKPwgHlyw _8RHQUPi8Ee2qqvKPwgHlyw"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_E2tpoPi8Ee2qqvKPwgHlyw" name="Set Starting Point" incoming="_GUX6cPi8Ee2qqvKPwgHlyw">
@@ -345,16 +348,20 @@
             <body>Distance between two points (x1, y1) and (x2, y2):&#xD;
 Euclidean Distance Formula: distance = sqrt((x2 - x1)^2 + (y2 - y1)^2)</body>
           </node>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_72-nIPi-Ee2qqvKPwgHlyw" name="Calculate Orientation Angle">
+          <node xmi:type="uml:OpaqueAction" xmi:id="_72-nIPi-Ee2qqvKPwgHlyw" name="Calculate Bearing Angle">
             <inputValue xmi:type="uml:InputPin" xmi:id="_73SwM_i-Ee2qqvKPwgHlyw" name="Vector Components (dx, dy)" incoming="_73SwMPi-Ee2qqvKPwgHlyw">
               <upperBound xmi:type="uml:LiteralInteger" xmi:id="_73SwNPi-Ee2qqvKPwgHlyw" value="1"/>
             </inputValue>
             <language>Natural language</language>
-            <outputValue xmi:type="uml:OutputPin" xmi:id="_9hHGUfjBEe2qqvKPwgHlyw" name="AngleData" outgoing="_9hHGUPjBEe2qqvKPwgHlyw">
+            <outputValue xmi:type="uml:OutputPin" xmi:id="_9hHGUfjBEe2qqvKPwgHlyw" name="AngleData" outgoing="_3GY7wPoYEe2hbfEXa5Ntog">
               <upperBound xmi:type="uml:LiteralInteger" xmi:id="_9hHGUvjBEe2qqvKPwgHlyw" value="1"/>
             </outputValue>
-            <body>Orientation angle between two points (x1, y1) and (x2, y2):&#xD;
-Angle Calculation using atan2: angle = atan2(y2 - y1, x2 - x1)</body>
+            <body>Define the bearing angle θ from a point A(x1, y1) to a point B(x2, y2) as the angle measured in the clockwise direction from the north line with A as the origin to the line segment AB.&#xD;
+Bearing angle between two points A(x1, y1) to a point B(x2, y2):&#xD;
+θ^=atan2(x2−x1,y2−y1)∈(−π,π]&#xD;
+Then the bearing angle θ∈[0,2π) is given by&#xD;
+θ={θ^, θ^≥0&#xD;
+2π+θ^, θ^&lt;0}</body>
           </node>
           <node xmi:type="uml:AcceptEventAction" xmi:id="_xAXYAPjAEe2qqvKPwgHlyw" name="getCurrentPosition" visibility="private">
             <result xmi:type="uml:OutputPin" xmi:id="_v-3CQPjBEe2qqvKPwgHlyw" name="PositionData" outgoing="_w2hqEPjBEe2qqvKPwgHlyw _PFv8IPlOEe2HQ6lj8uEvDg _SUy1kPlPEe2HQ6lj8uEvDg">
@@ -363,7 +370,7 @@ Angle Calculation using atan2: angle = atan2(y2 - y1, x2 - x1)</body>
             <trigger xmi:type="uml:Trigger" xmi:id="_Kt2p4PjBEe2qqvKPwgHlyw" name="PositionDataSignal" event="_rnWPcPjBEe2qqvKPwgHlyw"/>
           </node>
           <node xmi:type="uml:OpaqueAction" xmi:id="_9g0LYPjBEe2qqvKPwgHlyw" name="Follow Path" incoming="_g5G68PlMEe2HQ6lj8uEvDg" outgoing="_U32IgPlMEe2HQ6lj8uEvDg">
-            <inputValue xmi:type="uml:InputPin" xmi:id="_9hHGU_jBEe2qqvKPwgHlyw" name="PathData" incoming="_9hHGUPjBEe2qqvKPwgHlyw">
+            <inputValue xmi:type="uml:InputPin" xmi:id="_9hHGU_jBEe2qqvKPwgHlyw" name="PathData" incoming="_3GY7wPoYEe2hbfEXa5Ntog">
               <upperBound xmi:type="uml:LiteralInteger" xmi:id="_9hHGVPjBEe2qqvKPwgHlyw" value="1"/>
             </inputValue>
           </node>
