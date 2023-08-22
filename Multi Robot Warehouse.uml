@@ -661,6 +661,9 @@ wR = (v + (L/2) * ω) / r</body>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_6mGrkPPQEe2wdt6DZSaEcw" name="out" type="_f0ThcPMqEe2IrecUZd2RoA" aggregation="composite"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_PtMj4PM-Ee2ZjMcAnrF9CQ" name="Robot" visibility="public">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_N_e2kEDqEe6FTdUgZTI5xw" annotatedElement="_wrsMYEDpEe6FTdUgZTI5xw">
+            <body>communicate/coordinate</body>
+          </ownedComment>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_p4XO0vPDEe2wdt6DZSaEcw" name="part" type="_7rE38PPCEe2wdt6DZSaEcw" aggregation="composite" association="_p4WnwPPDEe2wdt6DZSaEcw">
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_p4XO1PPDEe2wdt6DZSaEcw" value="*"/>
           </ownedAttribute>
@@ -698,9 +701,17 @@ wR = (v + (L/2) * ω) / r</body>
             <end xmi:type="uml:ConnectorEnd" xmi:id="_Qk8zYCSjEe6fXtlrLqfYPA" role="_HjwnECSgEe6fXtlrLqfYPA"/>
             <end xmi:type="uml:ConnectorEnd" xmi:id="_Qk8zYSSjEe6fXtlrLqfYPA" partWithPort="_8hUG8_PDEe2wdt6DZSaEcw" role="_BNIU0CSjEe6fXtlrLqfYPA"/>
           </ownedConnector>
-          <ownedConnector xmi:type="uml:Connector" xmi:id="_F3W3ED60Ee6yUdoEfV9Uuw" name="BindingConnector12">
-            <end xmi:type="uml:ConnectorEnd" xmi:id="_F3lgkD60Ee6yUdoEfV9Uuw" partWithPort="_XiRlIvihEe2qqvKPwgHlyw" role="_M4Y-4CSfEe6fXtlrLqfYPA"/>
-            <end xmi:type="uml:ConnectorEnd" xmi:id="_F3lgkT60Ee6yUdoEfV9Uuw" partWithPort="_e6epI_ieEe2qqvKPwgHlyw" role="_8xxOsPiuEe2qqvKPwgHlyw"/>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_swPDcEDpEe6FTdUgZTI5xw" name="Connector12">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_swPqgEDpEe6FTdUgZTI5xw" partWithPort="_8hUG8_PDEe2wdt6DZSaEcw" role="_Rn-MEPiwEe2qqvKPwgHlyw"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_swPqgUDpEe6FTdUgZTI5xw" partWithPort="_e6epI_ieEe2qqvKPwgHlyw" role="_8xxOsPiuEe2qqvKPwgHlyw"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_wrsMYEDpEe6FTdUgZTI5xw" name="Connector13">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_wrszcEDpEe6FTdUgZTI5xw" partWithPort="_XiRlIvihEe2qqvKPwgHlyw" role="_lMI_4EDpEe6FTdUgZTI5xw"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_wrszcUDpEe6FTdUgZTI5xw" partWithPort="_e6epI_ieEe2qqvKPwgHlyw" role="_kKD30EDpEe6FTdUgZTI5xw"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_4tAXcEDpEe6FTdUgZTI5xw" name="Connector14">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_4tA-gEDpEe6FTdUgZTI5xw" partWithPort="_XiRlIvihEe2qqvKPwgHlyw" role="_M4Y-4CSfEe6fXtlrLqfYPA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_4tBlkEDpEe6FTdUgZTI5xw" partWithPort="_7jGyQvPDEe2wdt6DZSaEcw" role="_WDm70PiuEe2qqvKPwgHlyw"/>
           </ownedConnector>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_QZUqEPM-Ee2ZjMcAnrF9CQ" name="Wheel"/>
@@ -754,6 +765,7 @@ wR = (v + (L/2) * ω) / r</body>
           </ownedAttribute>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_8xxOsPiuEe2qqvKPwgHlyw" name="Kitematic Calculation" type="_bhx_QPivEe2qqvKPwgHlyw" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_x2FroCSdEe6fXtlrLqfYPA" name="Out" type="_bhx_QPivEe2qqvKPwgHlyw" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_kKD30EDpEe6FTdUgZTI5xw" name="FlowPort4" aggregation="composite"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_9-NKcPifEe2qqvKPwgHlyw" name="Differential Drive Model"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_AFLeAPigEe2qqvKPwgHlyw" name="Geometric Model">
@@ -763,6 +775,7 @@ wR = (v + (L/2) * ω) / r</body>
           </ownedAttribute>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_xhEhEPivEe2qqvKPwgHlyw" name="Geometric Calculation" type="_bhx_QPivEe2qqvKPwgHlyw" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_M4Y-4CSfEe6fXtlrLqfYPA" name="Out" type="_bhx_QPivEe2qqvKPwgHlyw" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_lMI_4EDpEe6FTdUgZTI5xw" name="FlowPort4" aggregation="composite"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_-6wc0PigEe2qqvKPwgHlyw" name="Point-to-Point Navigation"/>
         <packagedElement xmi:type="uml:Association" xmi:id="_NegdUPPDEe2wdt6DZSaEcw" memberEnd="_Nei5kPPDEe2wdt6DZSaEcw _NeoZIPPDEe2wdt6DZSaEcw">
@@ -1115,8 +1128,13 @@ wR = (v + (L/2) * ω) / r</body>
   <DeprecatedElements:FlowPort xmi:id="_BNL_MCSjEe6fXtlrLqfYPA" base_Port="_BNIU0CSjEe6fXtlrLqfYPA" direction="in"/>
   <Blocks:NestedConnectorEnd xmi:id="_Qk8zYiSjEe6fXtlrLqfYPA" base_Element="_Qk8zYSSjEe6fXtlrLqfYPA" propertyPath="_8hUG8_PDEe2wdt6DZSaEcw" base_ConnectorEnd="_Qk8zYSSjEe6fXtlrLqfYPA"/>
   <Blocks:BindingConnector xmi:id="_Qk8zYySjEe6fXtlrLqfYPA" base_Connector="_Qk5wECSjEe6fXtlrLqfYPA"/>
-  <Blocks:NestedConnectorEnd xmi:id="_F3lgkj60Ee6yUdoEfV9Uuw" base_Element="_F3lgkD60Ee6yUdoEfV9Uuw" propertyPath="_XiRlIvihEe2qqvKPwgHlyw" base_ConnectorEnd="_F3lgkD60Ee6yUdoEfV9Uuw"/>
-  <Blocks:NestedConnectorEnd xmi:id="_F3pK8D60Ee6yUdoEfV9Uuw" base_Element="_F3lgkT60Ee6yUdoEfV9Uuw" propertyPath="_e6epI_ieEe2qqvKPwgHlyw" base_ConnectorEnd="_F3lgkT60Ee6yUdoEfV9Uuw"/>
-  <Blocks:BindingConnector xmi:id="_F3pK8T60Ee6yUdoEfV9Uuw" base_Connector="_F3W3ED60Ee6yUdoEfV9Uuw"/>
   <Activities:Discrete xmi:id="_1z450D67Ee6yUdoEfV9Uuw"/>
+  <DeprecatedElements:FlowPort xmi:id="_kKGUEEDpEe6FTdUgZTI5xw" base_Port="_kKD30EDpEe6FTdUgZTI5xw"/>
+  <DeprecatedElements:FlowPort xmi:id="_lMLcIEDpEe6FTdUgZTI5xw" base_Port="_lMI_4EDpEe6FTdUgZTI5xw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_swQ4oEDpEe6FTdUgZTI5xw" base_Element="_swPqgEDpEe6FTdUgZTI5xw" propertyPath="_8hUG8_PDEe2wdt6DZSaEcw" base_ConnectorEnd="_swPqgEDpEe6FTdUgZTI5xw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_swQ4oUDpEe6FTdUgZTI5xw" base_Element="_swPqgUDpEe6FTdUgZTI5xw" propertyPath="_e6epI_ieEe2qqvKPwgHlyw" base_ConnectorEnd="_swPqgUDpEe6FTdUgZTI5xw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_wrszckDpEe6FTdUgZTI5xw" base_Element="_wrszcEDpEe6FTdUgZTI5xw" propertyPath="_XiRlIvihEe2qqvKPwgHlyw" base_ConnectorEnd="_wrszcEDpEe6FTdUgZTI5xw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_wrtagEDpEe6FTdUgZTI5xw" base_Element="_wrszcUDpEe6FTdUgZTI5xw" propertyPath="_e6epI_ieEe2qqvKPwgHlyw" base_ConnectorEnd="_wrszcUDpEe6FTdUgZTI5xw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_4tBlkUDpEe6FTdUgZTI5xw" base_Element="_4tA-gEDpEe6FTdUgZTI5xw" propertyPath="_XiRlIvihEe2qqvKPwgHlyw" base_ConnectorEnd="_4tA-gEDpEe6FTdUgZTI5xw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_4tBlkkDpEe6FTdUgZTI5xw" base_Element="_4tBlkEDpEe6FTdUgZTI5xw" propertyPath="_7jGyQvPDEe2wdt6DZSaEcw" base_ConnectorEnd="_4tBlkEDpEe6FTdUgZTI5xw"/>
 </xmi:XMI>
