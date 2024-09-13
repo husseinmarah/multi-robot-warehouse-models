@@ -11,13 +11,13 @@ You can cite the paper as the following:
 
 H. Marah, R. Paredis, M. Challenger and H. Vangheluwe, "A Multi-Robot Warehouse System: An Exemplar," 2023 ACM/IEEE International Conference on Model Driven Engineering Languages and Systems Companion (MODELS-C), Västerås, Sweden, 2023, pp. 530-538, doi: 10.1109/MODELS-C59198.2023.00090.
 
-    @INPROCEEDINGS{10350642,
+    @inproceedings{marah2023multi,
+      title={A Multi-Robot Warehouse System: An Exemplar},
       author={Marah, Hussein and Paredis, Randy and Challenger, Moharram and Vangheluwe, Hans},
-      booktitle={2023 ACM/IEEE International Conference on Model Driven Engineering Languages and Systems Companion (MODELS-C)}, 
-      title={A Multi-Robot Warehouse System: An Exemplar}, 
+      booktitle={2023 ACM/IEEE International Conference on Model Driven Engineering Languages and Systems Companion (MODELS-C)},
+      pages={530--538},
       year={2023},
-      volume={},
-      number={},
-      pages={530-538},
-      keywords={Cyber-physical systems;Model-driven engineering;Complexity theory;Complex systems;Multi-Paradigm Modelling;Cyber-Physical Systems;Multi-Robot Warehouse;Modelling Formalisms},
-      doi={10.1109/MODELS-C59198.2023.00090}}
+      organization={IEEE},
+      doi={10.1109/MODELS-C59198.2023.00090}
+    }
+
